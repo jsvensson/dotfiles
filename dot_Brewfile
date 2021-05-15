@@ -4,16 +4,16 @@
 tap "homebrew/core"
 tap "homebrew/cask-fonts"
 
-brew "chezmoi"						# dotfile management
-brew "exa"							# ls replacement
-brew "fish"							# shell of choice
-brew "fzf"							# fuzzy finder
-brew "ghq"							# git repo management
+brew "chezmoi"		# dotfile management
+brew "exa"			# ls replacement
+brew "fish"			# shell of choice
+brew "fzf"			# fuzzy finder
+brew "ghq"			# git repo management
 brew "git"
 brew "go"
 brew "neovim"
-brew "starship"						# shell powerline
-brew "tig"							# git interface
-brew "trash"						# rm to trashcan
+brew "starship"		# shell powerline
+brew "tig"			# git interface
+brew "trash"		# rm to trashcan
 
 cask "font-fira-code-nerd-font"
