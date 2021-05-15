@@ -5,3 +5,7 @@ Host *
 	AddKeysToAgent yes
 	UseKeychain yes
 	{{- end }}
+
+	# Disable client-side roaming support for security reasons.
+	# See https://www.upguard.com/blog/fixing-the-new-openssh-roaming-bug
+	UseRoaming no
