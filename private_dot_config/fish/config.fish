@@ -33,6 +33,7 @@ alias brwe "brew" # maximum butterfingers
 ####
 
 set -gx EDITOR nvim
+set -gx GIT_CONFIG ~/.config/git/config
 
 ####
 #### Path
