@@ -38,6 +38,7 @@ alias brwe "brew" # maximum butterfingers
 
 set -g theme_nerd_fonts yes
 set -g theme_display_date no
+set -g theme_display_cmd_duration no
 
 ####
 #### Env vars
