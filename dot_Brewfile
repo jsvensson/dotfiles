@@ -7,13 +7,16 @@ tap "homebrew/core"
 brew "bat"          # cat replacement
 brew "chezmoi"      # dotfile management
 brew "exa"          # ls replacement
+brew "fd"           # find replacement
 brew "fish"         # shell of choice
 brew "fzf"          # fuzzy finder
 brew "ghq"          # git repo management
 brew "git"
 brew "go"
+brew "jq"           # JSON querying/manipulation
 brew "mockery"      # Go mock generator
 brew "neovim"
+brew "ripgrep"
 brew "starship"     # shell powerline
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
