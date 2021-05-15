@@ -7,3 +7,4 @@
 	helper = osxkeychain
 [ghq]
 	root = ~/go/src/
+{{/* vim: set filetype=gitconfig: */}}
