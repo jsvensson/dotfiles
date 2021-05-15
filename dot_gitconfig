@@ -6,4 +6,4 @@
 [credential]
 	helper = osxkeychain
 [ghq]
-	root = /Users/echo/go/src/
+	root = ~/go/src/
