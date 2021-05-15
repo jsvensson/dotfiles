@@ -4,6 +4,7 @@
 tap "homebrew/core"
 tap "homebrew/cask-fonts"
 
+brew "bat"          # cat replacement
 brew "chezmoi"      # dotfile management
 brew "exa"          # ls replacement
 brew "fish"         # shell of choice
