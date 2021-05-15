@@ -24,6 +24,7 @@ alias dcom "docker-compose"
 # Misc
 alias ls "exa --icons"
 alias ll "exa -l --icons"
+alias lla "ll -a"
 alias llt "ll --tree --level=2"
 alias brwe "brew" # maximum butterfingers 
 
