@@ -30,7 +30,7 @@ alias brwe "brew" # maximum butterfingers
 #### Env vars
 ####
 
-set -gx EDITOR vim
+set -gx EDITOR nvim
 
 ####
 #### Path
