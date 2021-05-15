@@ -1,8 +1,8 @@
 # Dependencies installed via `brew bundle`
 # https://github.com/Homebrew/homebrew-bundle
 
-tap "homebrew/core"
 tap "homebrew/cask-fonts"
+tap "homebrew/core"
 
 brew "bat"          # cat replacement
 brew "chezmoi"      # dotfile management
@@ -12,6 +12,7 @@ brew "fzf"          # fuzzy finder
 brew "ghq"          # git repo management
 brew "git"
 brew "go"
+brew "mockery"      # Go mock generator
 brew "neovim"
 brew "starship"     # shell powerline
 brew "tig"          # git interface
