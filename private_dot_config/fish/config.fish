@@ -13,6 +13,10 @@ alias gs "git status -sb"
 alias gb "git branch"
 alias gl "git log --graph"
 
+# Kubernetes
+alias k "kubectl"
+alias kc "kubectx"
+
 # Chezmoi
 alias cm "chezmoi"
 
@@ -27,6 +31,13 @@ alias ll "exa -l --icons"
 alias lla "ll -a"
 alias llt "ll --tree --level=2"
 alias brwe "brew" # maximum butterfingers 
+
+####
+#### Theme setup
+####
+
+set -g theme_nerd_fonts yes
+set -g theme_display_date no
 
 ####
 #### Env vars
