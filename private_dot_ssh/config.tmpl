@@ -1,0 +1,7 @@
+Host *
+	{{ if (eq .chezmoi.os "darwin") -}}
+	# Allow storing passphrases in the macOS keychain.
+	# See https://developer.apple.com/library/archive/technotes/tn2449/_index.html
+	AddKeysToAgent yes
+	UseKeychain yes
+	{{- end }}
