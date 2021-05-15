@@ -5,5 +5,5 @@ function gcd
         return 1
     end
 
-    cd dir
+    builtin cd $dir
 end
