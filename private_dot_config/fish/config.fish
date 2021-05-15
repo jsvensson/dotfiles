@@ -27,6 +27,12 @@ alias llt "ll --tree --level=2"
 alias brwe "brew" # maximum butterfingers 
 
 ####
+#### Env vars
+####
+
+set -gx EDITOR vim
+
+####
 #### Path
 ####
 
