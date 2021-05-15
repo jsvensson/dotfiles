@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[user]
+	email = johan@reducer.io
+	name = Johan Svensson
+[credential]
+	helper = osxkeychain
+[ghq]
+	root = /Users/echo/go/src/
