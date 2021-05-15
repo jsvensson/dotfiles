@@ -1,2 +1,17 @@
 [git_branch]
 style = "208"
+symbol = " "
+
+[git_status]
+style = "bold red"
+format = '([\[ $all_status$ahead_behind\]]($style) )'
+ahead = "⇡${count}(bold yellow) "
+diverged = "⇕⇡${ahead_count} ⇣${behind_count} "
+behind = "⇣${count} "
+renamed = "»${count} "
+modified = "!${count} "
+untracked = "[?${count}](bold yellow) "
+staged = "[+${count}](bold green) "
+
+[golang]
+symbol = " "
