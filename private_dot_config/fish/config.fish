@@ -13,6 +13,7 @@ abbr ga "git add"
 abbr gb "git branch"
 abbr gc "git commit"
 abbr gco "git checkout"
+alias gbs "fzf_change_git_branch"
 alias gl "git log --graph"
 alias gs "git status -sb"
 
