@@ -56,4 +56,4 @@ set -gx GIT_CONFIG ~/.config/git/config
 #### Path
 ####
 
-set -gx PATH $PATH ~/go/bin
+set -gx -a PATH ~/go/bin
