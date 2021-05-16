@@ -32,7 +32,8 @@ abbr dps "docker ps"
 abbr brwe "brew" # maximum butterfingers 
 alias ll "exa -l --icons"
 alias lla "ll -a"
-alias llt "ll --tree --level=2"
+alias ll2 "ll --tree --level=2"
+alias ll3 "ll --tree --level=3"
 alias ls "exa --icons"
 
 ####
