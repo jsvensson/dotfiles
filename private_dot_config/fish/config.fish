@@ -9,6 +9,7 @@ eval (starship init fish)
 alias vim "nvim"
 
 # Git
+abbr ga "git add"
 abbr gb "git branch"
 abbr gc "git commit"
 abbr gco "git checkout"
@@ -23,24 +24,24 @@ abbr kc "kubectx"
 abbr cm "chezmoi"
 
 # Docker
-abbr dps "docker ps"
-abbr dim "docker image"
 abbr dcom "docker-compose"
+abbr dim "docker image"
+abbr dps "docker ps"
 
 # Misc
-alias ls "exa --icons"
+abbr brwe "brew" # maximum butterfingers 
 alias ll "exa -l --icons"
 alias lla "ll -a"
 alias llt "ll --tree --level=2"
-abbr brwe "brew" # maximum butterfingers 
+alias ls "exa --icons"
 
 ####
 #### Theme setup
 ####
 
-set -g theme_nerd_fonts yes
-set -g theme_display_date no
 set -g theme_display_cmd_duration no
+set -g theme_display_date no
+set -g theme_nerd_fonts yes
 
 ####
 #### Env vars
