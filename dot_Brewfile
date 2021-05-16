@@ -13,6 +13,7 @@ brew "fzf"          # fuzzy finder
 brew "ghq"          # git repo management
 brew "git"
 brew "go"
+brew "hub"          # GitHub extension for git CLI
 brew "jq"           # JSON querying/manipulation
 brew "mockery"      # Go mock generator
 brew "neovim"
