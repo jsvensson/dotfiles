@@ -30,11 +30,12 @@ abbr dps "docker ps"
 
 # Misc
 abbr brwe "brew" # maximum butterfingers 
-alias ll "exa -l --icons"
+alias ll "ls -l --git"
 alias lla "ll -a"
 alias ll2 "ll --tree --level=2"
 alias ll3 "ll --tree --level=3"
 alias ls "exa --icons"
+alias llt "ll --header --accessed --modified --created"
 
 ####
 #### Theme setup
