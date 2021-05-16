@@ -9,9 +9,10 @@ eval (starship init fish)
 alias vim "nvim"
 
 # Git
-alias gs "git status -sb"
-alias gb "git branch"
+abbr gb "git branch"
+abbr gco "git checkout"
 alias gl "git log --graph"
+alias gs "git status -sb"
 
 # Kubernetes
 alias k "kubectl"
