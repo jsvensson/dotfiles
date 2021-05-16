@@ -10,28 +10,29 @@ alias vim "nvim"
 
 # Git
 abbr gb "git branch"
+abbr gc "git commit"
 abbr gco "git checkout"
 alias gl "git log --graph"
 alias gs "git status -sb"
 
 # Kubernetes
-alias k "kubectl"
-alias kc "kubectx"
+abbr k "kubectl"
+abbr kc "kubectx"
 
 # Chezmoi
-alias cm "chezmoi"
+abbr cm "chezmoi"
 
 # Docker
-alias dps "docker ps"
-alias dim "docker image"
-alias dcom "docker-compose"
+abbr dps "docker ps"
+abbr dim "docker image"
+abbr dcom "docker-compose"
 
 # Misc
 alias ls "exa --icons"
 alias ll "exa -l --icons"
 alias lla "ll -a"
 alias llt "ll --tree --level=2"
-alias brwe "brew" # maximum butterfingers 
+abbr brwe "brew" # maximum butterfingers 
 
 ####
 #### Theme setup
