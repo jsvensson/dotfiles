@@ -21,5 +21,6 @@ brew "ripgrep"
 brew "starship"     # shell powerline
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
+brew "yq"           # YAML querying/manipulation
 
 cask "font-fira-code-nerd-font"
