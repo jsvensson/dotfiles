@@ -1,3 +1,6 @@
+[kubernetes]
+disabled = false
+
 [git_branch]
 style = "208"
 symbol = " "
