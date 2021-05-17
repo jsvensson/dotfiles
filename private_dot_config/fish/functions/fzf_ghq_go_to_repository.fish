@@ -3,5 +3,6 @@ function fzf_ghq_go_to_repository -d 'Go to repository'
 	[ -n query ]; and set flags --query="$query"; or set flags
 	ghq list | fzf $flags | read select
 	[ -n "$select" ]; and builtin cd (ghq root)/$select
+	commandline -r ''
 	commandline -f repaint
 end
