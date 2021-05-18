@@ -26,4 +26,5 @@ brew "tig"          # git interface
 brew "trash"        # rm to trashcan
 brew "yq"           # YAML querying/manipulation
 
+cask "font-caskaydia-cove-nerd-font"
 cask "font-fira-code-nerd-font"
