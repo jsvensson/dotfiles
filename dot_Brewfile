@@ -6,6 +6,7 @@ tap "homebrew/core"
 
 brew "bat"          # cat replacement
 brew "chezmoi"      # dotfile management
+brew "ctop"         # top for Docker containers
 brew "diff-so-fancy"
 brew "exa"          # ls replacement
 brew "fd"           # find replacement
@@ -20,6 +21,7 @@ brew "mockery"      # Go mock generator
 brew "neovim"
 brew "ripgrep"
 brew "starship"     # shell powerline
+brew "staticcheck"  # static code analysis for Go
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
 brew "yq"           # YAML querying/manipulation
