@@ -20,6 +20,7 @@ alias gs "git status -sb"
 # Kubernetes
 abbr k "kubectl"
 abbr kc "kubectx"
+abbr kns "kubens"
 
 # Chezmoi
 abbr cm "chezmoi"
