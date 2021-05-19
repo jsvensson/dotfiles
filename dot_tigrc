@@ -2,3 +2,6 @@ set main-view-date-display = relative-compact
 set main-view-id-display = yes
 set refresh-interval = 60
 set refresh-mode = periodic
+
+color cursor white yellow bold
+color id yellow default
