@@ -10,7 +10,7 @@ set line-graphics = utf-8
 
 # Colors {{{
 
-color cursor white yellow bold
+color cursor white yellow
 color id yellow default
 
 # }}}
