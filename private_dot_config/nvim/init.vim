@@ -2,16 +2,6 @@ source $HOME/.config/nvim/config.vim
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/lsp-config.vim
 
-" Lick the rainbow
-if (has("termguicolors"))
- set termguicolors
-endif
-
-" Enable mouse if available
-if has('mouse')
-    set mouse=a
-endif
-
 " UI/theme setup
 set title " Let nvim set iTerm tab title
 colorscheme tender
@@ -44,13 +34,6 @@ let g:go_fmt_options = {
 let g:go_auto_type_info = 1           " Automatically get signature/type info for object under cursor
 autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
-set number				" Line number in gutter
-set encoding=utf-8
-set tabstop=4
-set shiftwidth=4		" Indent size
-set colorcolumn=100
-set cursorline
-
 "lua <<EOF
 "require'nvim-treesitter.configs'.setup {
 "  highlight = {
@@ -58,8 +41,3 @@ set cursorline
 "  },
 "}
 "EOF
-
-function! SynGroup()                                                            
-    let l:s = synID(line('.'), col('.'), 1)                                       
-    echo synIDattr(l:s, 'name') . ' -> ' . synIDattr(synIDtrans(l:s), 'name')
-endfun
