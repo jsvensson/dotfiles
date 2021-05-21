@@ -51,6 +51,7 @@ set -g theme_nerd_fonts yes
 #### Env vars
 ####
 
+set -gx LC_CTYPE UTF-8
 set -gx EDITOR nvim
 set -gx GIT_CONFIG ~/.config/git/config
 
