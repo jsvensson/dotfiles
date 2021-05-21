@@ -17,6 +17,7 @@ Plug 'mhinz/vim-signify'					" Git gutter thingie
 Plug 'junegunn/fzf',
 	\ { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'christoomey/vim-sort-motion'          " Sort motion
 call plug#end()
 
 
