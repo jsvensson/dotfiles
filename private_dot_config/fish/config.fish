@@ -55,6 +55,12 @@ set -gx LC_CTYPE UTF-8
 set -gx EDITOR nvim
 set -gx GIT_CONFIG ~/.config/git/config
 
+if type -q fzf
+	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse --border" \
+		"--height=90% --preview-window=wrap --marker='@'" \
+		"--color=gutter:-1,bg+:3,fg+:0"
+end
+
 ####
 #### Path
 ####
