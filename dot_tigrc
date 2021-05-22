@@ -6,7 +6,7 @@ set refresh-interval = 60
 set refresh-mode = periodic
 set line-graphics = utf-8
 set truncation-delimiter = utf-8
-
+set tab-size = 4
 # }}}
 
 # Colors {{{
