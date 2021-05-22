@@ -7,6 +7,7 @@ Plug 'fatih/vim-go',						" Go
 Plug 'dag/vim-fish'							" Fish syntax
 " Color schemes
 Plug 'jacoborus/tender.vim'
+Plug 'ajmwagar/vim-deus'
 
 " UI enhancements
 "  Plug 'nvim-treesitter/nvim-treesitter',	" Syntax highlighting
