@@ -58,7 +58,7 @@ set -gx GIT_CONFIG ~/.config/git/config
 if type -q fzf
 	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse --border" \
 		"--height=90% --preview-window=wrap --marker='@'" \
-		"--color=gutter:-1,bg+:3,fg+:0"
+		"--color=gutter:-1,bg+:3,fg+:0,hl+:9,hl:#ffffff"
 end
 
 ####
