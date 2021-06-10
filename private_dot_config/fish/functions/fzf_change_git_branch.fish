@@ -6,11 +6,25 @@ function fzf_change_git_branch -d "Change git branch"
 	end
 
 	set -l preview 'git log -n 50 --color=always --date=short --pretty="format:%C(auto)%cd %h%d %s"'
-	set -l branch (git --no-pager branch -vv | fzf +m --preview $preview)
+	set -l branch (
+		git --no-pager branch --all -vv | \
+		fzf +m --preview $preview
+	)
+
 	if not set -q branch[1]
+		commandline -f repaint
 		return
 	end
 
-	git checkout (echo $branch | awk '{print $1}' | sed "s/.* //")
+	set branch (echo $branch | awk '{print $1}' | sed "s/.* //")
+
+	if string match --quiet -r 'remotes/' $branch
+		git checkout --track $branch
+	else
+		git checkout $branch
+	end
+
+	# TODO: Figure out how to redraw prompt without losing git output
+	#commandline -f repaint
 end
 
