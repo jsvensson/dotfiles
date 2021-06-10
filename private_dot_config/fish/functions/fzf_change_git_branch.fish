@@ -7,7 +7,7 @@ function fzf_change_git_branch -d "Change git branch"
 
 	set -l preview 'git log -n 50 --color=always --date=short --pretty="format:%C(auto)%cd %h%d %s"'
 	set -l branch (git --no-pager branch -vv | fzf +m --preview $preview)
-	if not set -q var[1]
+	if not set -q branch[1]
 		return
 	end
 
