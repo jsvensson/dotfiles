@@ -4,8 +4,8 @@ source $HOME/.config/nvim/lsp-config.vim
 
 " UI/theme setup
 set title " Let nvim set iTerm tab title
-colorscheme deus
-let g:lightline = { 'colorscheme': 'deus' }
+colorscheme tender
+let g:lightline = { 'colorscheme': 'tender' }
 
 highlight Constant cterm=italic
 highlight Constant gui=italic
