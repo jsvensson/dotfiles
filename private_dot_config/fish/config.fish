@@ -12,10 +12,14 @@ alias vim "nvim"
 abbr ga "git add"
 abbr gb "git branch"
 abbr gc "git commit"
+abbr gcm "git commit -m"
 abbr gco "git checkout"
 alias gbs "fzf_change_git_branch"
 alias gl "git log --graph"
 alias gs "git status -sb"
+
+# Go
+abbr gmt "go mod tidy -v"
 
 # Kubernetes
 abbr k "kubectl"
