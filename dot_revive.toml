@@ -8,6 +8,7 @@ warningCode = 1
 [rule.blank-imports]
 [rule.context-as-argument]
 [rule.context-keys-type]
+[rule.deep-exit]
 [rule.dot-imports]
 [rule.duplicated-imports]
 [rule.empty-block]
