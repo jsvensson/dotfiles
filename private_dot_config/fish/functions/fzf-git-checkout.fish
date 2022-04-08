@@ -8,7 +8,7 @@ function fzf-git-checkout -d "Change git branch"
 	set -l preview 'git log -n 50 --color=always --date=short --pretty="format:%C(auto)%cd %h%d %s"'
 	set -l branch (
 		git --no-pager branch --all -vv | \
-		fzf +m --preview $preview
+		fzf --nth=1,2 +m --preview $preview
 	)
 
 	if not set -q branch[1]
