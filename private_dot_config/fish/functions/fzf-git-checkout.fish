@@ -6,9 +6,13 @@ function fzf-git-checkout -d "Change git branch"
 	end
 
 	set -l pr_win 'nowrap'
-	set -l preview 'git log -n 50 --color=always --date=short --pretty="format:%C(auto)%cd %h%d %s"'
+	set -l preview "git log -n 50 \
+		--color=always --date=short \
+		--pretty='format:%C(auto)%cd %h%d %s' \
+		(echo '{}' | sed 's/.* //') --"
 	set -l branch (
-		git --no-pager branch --all -vv | \
+		git --no-pager branch --all | \
+		grep -v origin/HEAD | \
 		fzf --nth=1,2 +m --preview-window $pr_win --preview $preview
 	)
 
