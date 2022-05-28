@@ -34,6 +34,11 @@ abbr dcom "docker-compose"
 abbr dim "docker image"
 abbr dps "docker ps"
 
+# Brew
+abbr bup "brew update"
+abbr bo "brew outdated"
+abbr bug "brew upgrade"
+
 # Misc
 abbr brwe "brew" # maximum butterfingers 
 alias ll "ls -l --git"
