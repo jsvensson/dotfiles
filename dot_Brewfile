@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 brew "bat"          # cat replacement
+brew "btop"         # system info, like htop
 brew "chezmoi"      # dotfile management
 brew "ctop"         # top for Docker containers
 brew "diff-so-fancy"
