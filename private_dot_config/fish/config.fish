@@ -64,6 +64,9 @@ set -gx LC_CTYPE UTF-8
 set -gx EDITOR nvim
 set -gx GIT_CONFIG ~/.config/git/config
 
+# SSH socket config
+set -gx SSH_AUTH_SOCK ~/.1password/agent.sock
+
 if type -q fzf
 	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse --border" \
 		"--height=90% --preview-window=wrap --marker='@'" \
