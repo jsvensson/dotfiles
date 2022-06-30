@@ -47,6 +47,7 @@ alias ll2 "ll --tree --level=2"
 alias ll3 "ll --tree --level=3"
 alias ls "exa --icons"
 alias llt "ll --header --accessed --modified --created"
+abbr tf "terraform"
 
 ####
 #### Theme setup
