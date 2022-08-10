@@ -40,6 +40,7 @@ abbr bo "brew outdated"
 abbr bug "brew upgrade"
 
 # Misc
+alias afk "open -a /System/Library/CoreServices/ScreenSaverEngine.app"
 abbr brwe "brew" # maximum butterfingers 
 alias ll "ls -l --git"
 alias lla "ll -a"
