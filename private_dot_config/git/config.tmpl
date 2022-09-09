@@ -2,6 +2,9 @@
 	email = johan@reducer.io
 	name = Johan Svensson
 
+	# GitHub public key
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICgwpaFZNhrNRW2qV/HxaMZqLUD9aADTt3L6Phob5MnH
+
 [init]
 	defaultBranch = main
 
@@ -15,12 +18,19 @@
 [interactive]
 	diffFilter = diff-so-fancy --patch
 
-[credential]
-	helper = osxkeychain
-
 [ghq]
 	root = ~/git/
 
 [include]
 	path = ~/.gitconfig.local
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+	gpgsign = true
+
 {{/* vim: set filetype=gitconfig: */}}
