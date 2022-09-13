@@ -2,10 +2,8 @@ Host *
 	IdentityAgent "~/.1password/agent.sock"
 
 {{ if (eq .chezmoi.os "darwin") -}}
-	# Allow storing passphrases in the macOS keychain.
-	# See https://developer.apple.com/library/archive/technotes/tn2449/_index.html
 	AddKeysToAgent yes
-	UseKeychain yes
+	UseKeychain no
 {{ end }}
 	# Disable client-side roaming support for security reasons.
 	# See https://www.upguard.com/blog/fixing-the-new-openssh-roaming-bug
