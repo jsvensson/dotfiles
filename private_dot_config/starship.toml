@@ -2,7 +2,7 @@
 symbol = " "
 
 [kubernetes]
-disabled = false
+disabled = true
 
 [git_branch]
 style = "208"
