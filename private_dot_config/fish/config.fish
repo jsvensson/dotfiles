@@ -76,6 +76,15 @@ if type -q fzf
 end
 
 ####
+#### Autocompletion definitions
+####
+
+# 1Password CLI
+if type -q op
+	op completion fish | source
+end
+
+####
 #### Path
 ####
 
