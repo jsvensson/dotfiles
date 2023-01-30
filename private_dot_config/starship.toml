@@ -1,3 +1,9 @@
+format = "[](bold white) $all"
+
+[env_var.apple]
+format = '[](white)'
+disabled = false
+
 [aws]
 symbol = " "
 
