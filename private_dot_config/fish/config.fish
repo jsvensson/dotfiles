@@ -1,3 +1,6 @@
+# Homebrew path
+eval (/opt/homebrew/bin/brew shellenv)
+
 # Starship
 eval (starship init fish)
 
@@ -35,9 +38,11 @@ abbr dim "docker image"
 abbr dps "docker ps"
 
 # Brew
-abbr bup "brew update"
-abbr bo "brew outdated"
-abbr bug "brew upgrade"
+if type -q brew
+	abbr bup "brew update"
+	abbr bo "brew outdated"
+	abbr bug "brew upgrade"
+end
 
 # Misc
 alias afk "open -a /System/Library/CoreServices/ScreenSaverEngine.app"
