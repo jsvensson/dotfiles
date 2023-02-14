@@ -13,7 +13,6 @@ brew "exa"          # ls replacement
 brew "fd"           # find replacement
 brew "fish"         # shell of choice
 brew "fzf"          # fuzzy finder
-brew "gh"			# GitHub CLI
 brew "ghq"          # git repo management
 brew "git"
 brew "go"
