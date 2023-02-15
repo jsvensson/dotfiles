@@ -25,6 +25,7 @@ brew "neovim"
 brew "ripgrep"
 brew "starship"     # shell powerline
 brew "staticcheck"  # static code analysis for Go
+brew "tfsec"
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
 brew "yq"           # YAML querying/manipulation
