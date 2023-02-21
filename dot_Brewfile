@@ -16,6 +16,7 @@ brew "fzf"          # fuzzy finder
 brew "ghq"          # git repo management
 brew "git"
 brew "go"
+brew "gofumpt"      # Stricter gofmt
 brew "jq"           # JSON querying/manipulation
 brew "kubectl"      # Kubernetes CLI tool
 brew "kubectx"      # Kubernetes context/namespace switching
