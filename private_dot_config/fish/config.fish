@@ -75,9 +75,12 @@ set -gx GIT_CONFIG ~/.config/git/config
 set -gx SSH_AUTH_SOCK ~/.1password/agent.sock
 
 if type -q fzf
+	# Options + Catppuccin Macchiato theme
 	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse --border" \
 		"--height=90% --preview-window=wrap --marker='@'" \
-		"--color=gutter:-1,bg+:yellow,fg+:0,hl+:red,hl:#ffffff"
+		"--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796" \
+		"--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6" \
+		"--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 end
 
 ####
