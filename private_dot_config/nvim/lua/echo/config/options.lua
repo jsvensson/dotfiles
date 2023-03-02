@@ -1,7 +1,8 @@
 local options = {
 	-- Appearance
 	termguicolors = true,
-	number = true, -- line number in gutter
+	number = true,        -- line number in gutter
+  cursorline = true,    -- highlight current line
 
 	-- Tabs and spaces
 	shiftwidth = 2,
