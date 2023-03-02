@@ -22,6 +22,7 @@ alias gl "git log --graph"
 alias gs "git status -sb"
 
 # Go
+abbr gmd "go mod download -x"
 abbr gmt "go mod tidy -v"
 
 # Kubernetes
