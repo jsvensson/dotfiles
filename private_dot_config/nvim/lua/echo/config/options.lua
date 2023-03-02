@@ -1,7 +1,7 @@
 local options = {
 	-- Appearance
 	termguicolors = true,
-	colorscheme = "catppuccin-macchiato",
+	number = true, -- line number in gutter
 
 	-- Tabs and spaces
 	shiftwidth = 2,
