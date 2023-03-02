@@ -12,6 +12,7 @@ eval (starship init fish)
 alias vim "nvim"
 
 # Git
+abbr g "gitui"
 abbr ga "git add"
 abbr gb "git branch"
 abbr gc "git commit"
