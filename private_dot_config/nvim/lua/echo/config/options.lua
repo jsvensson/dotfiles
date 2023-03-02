@@ -1,0 +1,13 @@
+local options = {
+	-- Appearance
+	termguicolors = true,
+	colorscheme = "catppuccin-macchiato",
+
+	-- Tabs and spaces
+	shiftwidth = 2,
+	tabstop = 2,
+}
+
+for k, v in pairs(options) do
+	vim.opt[k] = v
+end
