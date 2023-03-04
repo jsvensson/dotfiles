@@ -22,6 +22,7 @@ brew "kubectx"      # Kubernetes context/namespace switching
 brew "lefthook"     # Git pre-commit system
 brew "mockery"      # Go mock generator
 brew "neovim"
+brew "pwgen"
 brew "ripgrep"
 brew "starship"     # shell powerline
 brew "staticcheck"  # static code analysis for Go
