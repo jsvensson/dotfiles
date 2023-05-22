@@ -27,9 +27,9 @@ brew "ripgrep"
 brew "starship"     # shell powerline
 brew "staticcheck"  # static code analysis for Go
 brew "terraform"
-brew "tfsec"
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
+brew "trivy"
 brew "yq"           # YAML querying/manipulation
 
 # Improved deterministic goimports
