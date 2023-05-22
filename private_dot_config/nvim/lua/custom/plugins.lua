@@ -50,6 +50,10 @@ local plugins = {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
+  {
+    "ron-rs/ron.vim",
+    ft = "ron",
+  },
 }
 
 return plugins
