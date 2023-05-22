@@ -31,3 +31,7 @@ brew "tfsec"
 brew "tig"          # git interface
 brew "trash"        # rm to trashcan
 brew "yq"           # YAML querying/manipulation
+
+# Improved deterministic goimports
+tap "incu6us/homebrew-tap"
+brew "incu6us/homebrew-tap/goimports-reviser"
