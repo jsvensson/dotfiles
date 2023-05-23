@@ -1,9 +1,9 @@
 palette = "catppuccin_macchiato"
 
-format = "[](bold white) $all"
+format = "[](bold white) $all"
 
 [env_var.apple]
-format = '[](white)'
+format = '[](white)'
 disabled = false
 
 [aws]
