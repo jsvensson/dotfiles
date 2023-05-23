@@ -1,0 +1,23 @@
+(
+    selected_tab: Reset,
+    command_fg: Rgb(202, 211, 245),
+    selection_bg: Rgb(71, 82, 102),         // #475266
+    selection_fg: Rgb(191, 189, 182),       // #bfbdb6
+    cmdbar_bg: Rgb(17, 21, 28),             // #11151c
+    cmdbar_extra_lines_bg: Rgb(30, 32, 48),
+    disabled_fg: Rgb(128, 135, 162),
+    diff_line_add: Rgb(127, 217, 98),       // #7fd962
+    diff_line_delete: Rgb(242, 109, 120),   // #f26d78
+    diff_file_added: Rgb(127, 217, 98),     // #7fd962
+    diff_file_removed: Rgb(242, 109, 120),  // #f26d78
+    diff_file_moved: Rgb(115, 185, 255),    // #73b8ff
+    diff_file_modified: Rgb(115, 185, 255), // #73b8ff
+    commit_hash: Rgb(230, 182, 115),        // #e6b673
+    commit_time: Rgb(170, 217, 76),         // #aad94c
+    commit_author: Rgb(255, 180, 84),       // #ffb454
+    danger_fg: Rgb(237, 135, 150),
+    push_gauge_bg: Rgb(138, 173, 244),
+    push_gauge_fg: Rgb(36, 39, 58),
+    tag_fg: Rgb(57, 187, 230),              // #39bae6
+    branch_fg: Rgb(57, 187, 230)            // #39bae6
+)
