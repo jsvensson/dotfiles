@@ -4,7 +4,8 @@ eval (/opt/homebrew/bin/brew shellenv)
 # Starship
 eval (starship init fish)
 
-# Load aliases
+# Load bindings and aliases
+source ~/.config/fish/bindings.fish
 source ~/.config/fish/alias.fish
 
 ####
