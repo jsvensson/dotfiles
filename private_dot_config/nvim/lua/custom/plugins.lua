@@ -7,21 +7,8 @@ local plugins = {
       }
     },
   },
-  {
-    "mfussenegger/nvim-dap",
-    init = function()
-      require("core.utils").load_mappings("dap")
-    end
-  },
-  {
-    "leoluz/nvim-dap-go",
-    ft = "go",
-    dependencies = "mfussenegger/nvim-dap",
-    config = function(_, opts)
-      require("dap-go").setup(opts)
-      require("core.utils").load_mappings("dap_go")
-    end
-  },
+
+  -- LSP plugins
   {
     "neovim/nvim-lspconfig",
     config = function()
@@ -34,6 +21,25 @@ local plugins = {
     ft = "go",
     opts = function()
       return require "custom.configs.null-ls"
+    end
+  },
+
+  -- Debugging
+  {
+    "mfussenegger/nvim-dap",
+    init = function()
+      require("core.utils").load_mappings("dap")
+    end
+  },
+
+  -- Go plugins
+  {
+    "leoluz/nvim-dap-go",
+    ft = "go",
+    dependencies = "mfussenegger/nvim-dap",
+    config = function(_, opts)
+      require("dap-go").setup(opts)
+      require("core.utils").load_mappings("dap_go")
     end
   },
   {
@@ -53,6 +59,9 @@ local plugins = {
   {
     "ron-rs/ron.vim",
     ft = "ron",
+  },
+  {
+    "hashivim/vim-terraform",
   },
 }
 
