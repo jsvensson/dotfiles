@@ -14,6 +14,8 @@ I make heavy use of [fzf](https://github.com/junegunn/fzf) for productivity feat
 
 - `Ctrl-R`: search shell history
 - `Ctrl-V`: search environment variables
-- `Ctrl-G`: navigate to git repositories
+- `Ctrl-G G`: navigate to git repositories
+  - This uses `~/git/` as the base directory using [ghq](https://github.com/x-motemen/ghq)
+- `Ctrl-G B`: navigate git branches while in a repository
 - `Ctrl-F`: search files under `pwd` recursively
 - `Ctrl-D`: navigate to directories under `pwd` recursively
