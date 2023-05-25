@@ -24,3 +24,12 @@ lspconfig.gopls.setup {
     },
   },
 }
+
+-- Terraform setup
+lspconfig.terraformls.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+  cmd = {"terraform-ls"},
+  filetypes = {"tf"},
+}
+
