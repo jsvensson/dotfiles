@@ -43,4 +43,5 @@ brew "yq"           # YAML querying/manipulation
 brew "incu6us/homebrew-tap/goimports-reviser"
 
 # Mob programming handoff
+tap "remotemobprogramming/brew"
 brew "remotemobprogramming/brew/mob"
