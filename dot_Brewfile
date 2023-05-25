@@ -34,6 +34,12 @@ brew "trash"        # rm to trashcan
 brew "trivy"
 brew "yq"           # YAML querying/manipulation
 
+##
+## Taps
+##
+
 # Improved deterministic goimports
-tap "incu6us/homebrew-tap"
 brew "incu6us/homebrew-tap/goimports-reviser"
+
+# Mob programming handoff
+brew "remotemobprogramming/brew/mob"
