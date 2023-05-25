@@ -32,7 +32,6 @@ brew "staticcheck"  # static code analysis for Go
 brew "terraform"
 brew "terraform-ls" # Terraform language server
 brew "tmux"
-brew "tig"          # git interface
 brew "trash"        # rm to trashcan
 brew "trivy"
 brew "yq"           # YAML querying/manipulation
