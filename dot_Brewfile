@@ -8,6 +8,7 @@ brew "btop"         # system info, like htop
 brew "chezmoi"      # dotfile management
 brew "ctop"         # top for Docker containers
 brew "diff-so-fancy"
+brew "entr"         # Monitor files, run commands on changes
 brew "exa"          # ls replacement
 brew "fd"           # find replacement
 brew "fish"         # shell of choice
