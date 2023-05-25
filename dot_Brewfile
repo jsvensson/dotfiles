@@ -3,6 +3,7 @@
 
 tap "homebrew/core"
 
+brew "bash"         # because macOS ships with 3.2, from _2006_...
 brew "bat"          # cat replacement
 brew "btop"         # system info, like htop
 brew "chezmoi"      # dotfile management
