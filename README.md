@@ -19,3 +19,10 @@ I make heavy use of [fzf](https://github.com/junegunn/fzf) for productivity feat
 - `Ctrl-G B`: navigate git branches while in a repository
 - `Ctrl-F`: search files under `pwd` recursively
 - `Ctrl-D`: navigate to directories under `pwd` recursively
+
+## WIP: Installation
+
+I have yet to do a fresh install from scratch on a new computer, so this section is still highly theoretical.
+
+- Install Homebrew
+- Install chezmoi via Homebrew: `brew install chezmoi`

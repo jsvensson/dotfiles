@@ -4,4 +4,12 @@
 # to be applied first so that all tools are available.
 
 # Install tpm for tmux
-git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+TPM_DIR="$HOME/.config/tmux/plugins/tpm"
+
+if [[ -d $TPM_DIR ]]; then
+  echo "tmux: tpm already installed in $TPM_DIR"
+else
+  echo "tmux: installing tpm"
+  git clone https://github.com/tmux-plugins/tpm $TPM_DIR
+fi
+
