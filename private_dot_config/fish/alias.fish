@@ -2,6 +2,9 @@
 #### Aliases
 ####
 
+# fish
+alias reload "source ~/.config/fish/config.fish"
+
 # Vim
 alias vim "nvim"
 
