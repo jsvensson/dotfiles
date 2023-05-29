@@ -62,12 +62,10 @@ alias tfstate "terraform state show (terraform state list | fzf)"
 
 # fzf
 if type -q fzf
-	# Options + Catppuccin Macchiato theme
+	# Options + Ayu Dark-derived theme
 	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse --border" \
 		"--height=90% --preview-window=wrap --marker='@'" \
-		"--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796" \
-		"--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6" \
-		"--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+    "--color=fg:#bfbdb6,bg:#242936,hl:#ffb454 --color=fg+:#bfbdb6,bg+:#2e3e51,hl+:#ffb454 --color=info:#afaf87,prompt:#ffb454,pointer:#39bae6 --color=marker:#ffb454,spinner:#39bae6,header:#e6b673"
 end
 
 # tmux
