@@ -31,3 +31,6 @@ disabled = true
 [golang]
 symbol = " "
 
+[terraform]
+symbol = "󱁢 "
+format = "via [$symbol]($style)"
