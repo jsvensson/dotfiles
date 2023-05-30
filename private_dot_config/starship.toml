@@ -34,3 +34,6 @@ symbol = " "
 [terraform]
 symbol = "󱁢 "
 format = "via [$symbol]($style)"
+
+[lua]
+symbol = " "
