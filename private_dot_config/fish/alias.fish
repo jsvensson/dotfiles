@@ -61,7 +61,7 @@ if type -q exa
 end
 
 abbr tf "terraform"
-alias tfstate "terraform state show (terraform state list | fzf)"
+alias tfstate "terraform state show (terraform state list | fzf) | bat -l hcl --plain"
 
 # fzf
 if type -q fzf
