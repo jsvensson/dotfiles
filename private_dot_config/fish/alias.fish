@@ -21,6 +21,7 @@ alias gs "git status -sb"
 # Go
 abbr gmd "go mod download -x"
 abbr gmt "go mod tidy -v"
+alias goland "open -na GoLand.app"
 
 # Kubernetes
 abbr k "kubectl"
