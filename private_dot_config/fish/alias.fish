@@ -68,7 +68,7 @@ alias tfstate "terraform state show (terraform state list | fzf) | bat -l hcl --
 if type -q fzf
 	# Options + Ayu Dark-derived theme
 	set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse-list --border" \
-		"--height=50% --preview-window=wrap --marker='@' --pointer='@'" \
+		"--height=80% --preview-window=wrap --marker='@' --pointer='@'" \
     "--color=fg:#bfbdb6,bg:#242936,hl:#ffb454 --color=fg+:#bfbdb6,bg+:#2e3e51,hl+:#ffb454 --color=info:#afaf87,prompt:#ffb454,pointer:#39bae6 --color=marker:#ffb454,spinner:#39bae6,header:#e6b673"
 end
 
