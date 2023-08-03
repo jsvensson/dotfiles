@@ -4,6 +4,11 @@ command_timeout = 1000 # 1s
 [directory]
 style = "bold green"
 
+# Disable battery until this issue is fixed
+# https://github.com/starship/starship/issues/5350
+[battery]
+disabled = true
+
 [aws]
 symbol = " "
 
