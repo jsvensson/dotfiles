@@ -15,6 +15,7 @@ abbr gb "git branch"
 abbr gc "git commit"
 abbr gcm "git commit -m"
 abbr gco "git checkout"
+abbr gfa "git fetch --all --prune"
 alias gl "git log --graph"
 alias gs "git status -sb"
 
