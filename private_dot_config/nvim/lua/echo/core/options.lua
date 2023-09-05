@@ -7,6 +7,8 @@ opt.termguicolors = true
 opt.relativenumber = true
 opt.number = true -- show absolute line number on current line
 
+opt.fillchars = { eob = ' ' }
+
 -- tabs/indentation
 opt.tabstop = 2
 
