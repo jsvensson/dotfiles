@@ -13,12 +13,14 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load all the plugins
-require("lazy").setup({
-    {import = "echo.plugins"},
-    {import = "echo.plugins.lsp"},
+require("lazy").setup(
+  {
+    { import = "echo.plugins" },
+    { import = "echo.plugins.lsp" },
   },
   {
     install = {
       colorscheme = { "ayu" },
-    }
-  })
+    },
+  }
+)
