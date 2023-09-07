@@ -8,6 +8,9 @@ return {
     local lazy_status = require("lazy.status")
 
     lualine.setup({
+      extensions = {
+        "neo-tree",
+      },
       sections = {
        lualine_x = {
           {
