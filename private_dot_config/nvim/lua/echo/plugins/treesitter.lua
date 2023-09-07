@@ -8,12 +8,14 @@ local M = {
 M.opts = {
   ensure_installed = {
     "dockerfile",
+    "fish",
     "gitignore",
-    "go",
-    "gomod",
+    "go", "gomod", "gosum",
+    "json", "json5",
     "lua",
     "markdown",
     "terraform",
+    "yaml",
   },
   highlight = {
     enable = true,
