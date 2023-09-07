@@ -9,7 +9,7 @@ local M = {
   },
   keys = {
     { "-", "<Cmd>Neotree action=focus toggle<CR>", desc = "Toggle Neotree" },
-    { "_", "<Cmd>Neotree action=focus: reveal<CR>", desc = "Reveal buffer in Neotree" },
+    { "_", "<Cmd>Neotree action=focus reveal<CR>", desc = "Reveal buffer in Neotree" },
   },
 }
 
