@@ -45,11 +45,22 @@ return {
     -- enable autocompletion for every LSP config
     local capabilities = cmp_nvim_lsp.default_capabilities()
 
-    -- Go LSP config
-    lspconfig["gopls"].setup({
+    -- default setup object, unless specifically overridden
+    local default_setup = {
       capabilities = capabilities,
       on_attach = on_attach,
-    })
+    }
+
+    local servers = {
+      "gopls",
+      "terraformls",
+    }
+
+    for _, server in ipairs(servers) do
+      lspconfig[server].setup(default_setup)
+    end
+
+    -- specific server configs below
 
     -- Lua LSP config
     lspconfig["lua_ls"].setup({
@@ -70,12 +81,6 @@ return {
           },
         },
       },
-    })
-
-    -- Terraform LSP config
-    lspconfig["terraformls"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
     })
   end, -- end config
 }
