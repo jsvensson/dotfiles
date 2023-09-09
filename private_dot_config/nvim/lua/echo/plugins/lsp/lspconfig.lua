@@ -16,6 +16,13 @@ return {
       silent = true,
     }
 
+    -- change diagnostic signs in gutter
+    local signs = { Error = " ", Warn = " ", Hint = "󰠠 ", Info = " " }
+    for type, icon in pairs(signs) do
+      local hl = "DiagnosticSign" .. type
+      vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
+    end
+
     local on_attach = function(client, bufnr)
       opts.buffer = bufnr
 
