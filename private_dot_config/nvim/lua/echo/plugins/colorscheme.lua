@@ -14,7 +14,12 @@ return {
       -- Transparency overrides, see https://github.com/Shatur/neovim-ayu#transparency
       overrides = {
         NormalFloat = { bg = panel_bg }, -- lighter UI popups
-        LineNr = { fg = colors.comment }, -- lighter number column
+
+        -- adjust line numbers in gutter
+        LineNr = { fg = colors.func },
+        LineNrAbove = { fg = colors.selection_bg },
+        LineNrBelow = { fg = colors.selection_bg },
+
         NeoTreeCursorLine = { bg = panel_bg },
       },
     })
