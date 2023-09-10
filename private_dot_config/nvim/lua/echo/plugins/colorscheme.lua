@@ -13,12 +13,12 @@ return {
       mirage = false,
       -- Transparency overrides, see https://github.com/Shatur/neovim-ayu#transparency
       overrides = {
-        NormalFloat = { bg = "#212733" }, -- lighter UI popups
+        NormalFloat = { bg = panel_bg }, -- lighter UI popups
         LineNr = { fg = colors.comment }, -- lighter number column
         NeoTreeCursorLine = { bg = panel_bg },
       },
     })
 
-    vim.cmd([[colorscheme ayu]])
+  vim.cmd([[colorscheme ayu]])
   end,
 }
