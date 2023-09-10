@@ -7,7 +7,7 @@ local M = {
     local opts = vim.o
     local ufo = require("ufo")
 
-    opts.foldcolumn = '1' -- '0' is not bad
+    opts.foldcolumn = '0' -- '0' is not bad
     opts.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
     opts.foldlevelstart = 99
     opts.foldenable = true
