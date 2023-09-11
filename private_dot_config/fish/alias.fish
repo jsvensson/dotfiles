@@ -78,3 +78,4 @@ abbr tma "tmux a"
 
 # Shorthand for built-in stuff
 abbr c "clear"
+abbr x "exit"
