@@ -1,4 +1,4 @@
-format = "[](bold white) $all"
+format = "[](bold white) $all"
 command_timeout = 1000 # 1s
 
 [directory]
