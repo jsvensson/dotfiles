@@ -8,7 +8,7 @@ brew "fish"         # shell of choice
 
 # General shell tools
 brew "bat"          # cat replacement
-brew "exa"          # ls replacement
+brew "eza"          # ls replacement
 brew "fd"           # find replacement
 brew "ripgrep"
 brew "starship"     # shell powerline
