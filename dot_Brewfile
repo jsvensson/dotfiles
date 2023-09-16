@@ -1,6 +1,10 @@
 # Dependencies installed via `brew bundle`
 # https://github.com/Homebrew/homebrew-bundle
 
+# Fonts
+cask "font-fira-code-nerd-font"
+
+
 # Shells
 brew "bash"         # because macOS ships with 3.2, from 2006
 brew "fish"         # shell of choice
