@@ -45,7 +45,7 @@ brew "doggo"				# dig alternative
 # Kubernetes tools
 brew "kubectl"      # Kubernetes CLI tool
 brew "kubectx"      # Kubernetes context/namespace switching
-
+brew "k9s"					# Kubernets TUI tool
 
 # TODO: Stuff to categorize
 
