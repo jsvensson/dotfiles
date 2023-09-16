@@ -1,47 +1,69 @@
 # Dependencies installed via `brew bundle`
 # https://github.com/Homebrew/homebrew-bundle
 
-brew "bash"         # because macOS ships with 3.2, from _2006_...
+# Shells
+brew "bash"         # because macOS ships with 3.2, from 2006
+brew "fish"         # shell of choice
+
+
+# General shell tools
 brew "bat"          # cat replacement
-brew "btop"         # system info, like htop
-brew "chezmoi"      # dotfile management
-brew "ctop"         # top for Docker containers
-brew "diff-so-fancy"
-brew "entr"         # Monitor files, run commands on changes
 brew "exa"          # ls replacement
 brew "fd"           # find replacement
-brew "fish"         # shell of choice
-brew "fzf"          # fuzzy finder
-brew "ghq"          # git repo management
+brew "ripgrep"
+brew "starship"     # shell powerline
+brew "trash"        # rm to trashcan
+
+
+# Git + tools
 brew "git"
+brew "diff-so-fancy"
+brew "ghq"          # git repo management
+brew "lefthook"     # Git pre-commit system
+brew "chezmoi"      # dotfile management
+
+
+# Misc file format tools
+brew "jq"           # JSON querying/manipulation
+brew "noahgorstein/tap/jqp" # jq playground
+brew "yq"           # YAML querying/manipulation
+
+
+# Go + tools
 brew "go"
 brew "gofumpt"      # Stricter gofmt
 brew "gopls"
-brew "jq"           # JSON querying/manipulation
-brew "noahgorstein/tap/jqp" # jq playground
-cask "kitty"				# Terminal of choice
+brew "staticcheck"  # static code analysis for Go
+brew "mockery"      # Go mock generator
+brew "incu6us/homebrew-tap/goimports-reviser"
+
+
+# Network tools
+brew "doggo"				# dig alternative
+
+
+# Kubernetes tools
 brew "kubectl"      # Kubernetes CLI tool
 brew "kubectx"      # Kubernetes context/namespace switching
-brew "lefthook"     # Git pre-commit system
-brew "mockery"      # Go mock generator
+
+
+# TODO: Stuff to categorize
+
+brew "btop"         # system info, like htop
+brew "ctop"         # top for Docker containers
+brew "entr"         # Monitor files, run commands on changes
+brew "fzf"          # fuzzy finder
+cask "kitty"				# Terminal of choice
 brew "neovim"
 brew "pwgen"
-brew "ripgrep"
-brew "starship"     # shell powerline
-brew "staticcheck"  # static code analysis for Go
 brew "terraform"
 brew "terraform-ls" # Terraform language server
 brew "tmux"
-brew "trash"        # rm to trashcan
 brew "trivy"
-brew "yq"           # YAML querying/manipulation
 
 ##
 ## Taps
 ##
-
-# Improved deterministic goimports
-brew "incu6us/homebrew-tap/goimports-reviser"
 
 # Mob programming handoff
 tap "remotemobprogramming/brew"
