@@ -18,6 +18,7 @@ brew "go"
 brew "gofumpt"      # Stricter gofmt
 brew "gopls"
 brew "jq"           # JSON querying/manipulation
+brew "noahgorstein/tap/jqp" # jq playground
 cask "kitty"				# Terminal of choice
 brew "kubectl"      # Kubernetes CLI tool
 brew "kubectx"      # Kubernetes context/namespace switching
