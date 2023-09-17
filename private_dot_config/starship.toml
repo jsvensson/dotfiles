@@ -4,6 +4,11 @@ command_timeout = 1000 # 1s
 [directory]
 style = "bold green"
 
+[hostname]
+style = "bold yellow"
+format = "[$ssh_symbol$hostname]($style) on "
+ssh_symbol = "󰛳 "
+
 [aws]
 symbol = " "
 
