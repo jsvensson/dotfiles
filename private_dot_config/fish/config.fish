@@ -34,7 +34,7 @@ set -gx SSH_AUTH_SOCK ~/.1password/agent.sock
 
 # 1Password CLI
 if type -q op
-	op completion fish | source
+    op completion fish | source
 end
 
 ####
