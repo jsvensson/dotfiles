@@ -48,6 +48,11 @@ if type -q bat
     alias cat bat
 end
 
+# Replace dig with doggo
+if type -q doggo
+    abbr dig doggo
+end
+
 # Misc
 alias afk "open -a /System/Library/CoreServices/ScreenSaverEngine.app"
 abbr brwe brew # maximum butterfingers
