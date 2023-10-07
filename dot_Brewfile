@@ -3,7 +3,7 @@
 
 # Fonts
 cask "font-fira-code-nerd-font"
-
+cask "font-mononoki-nerd-font"
 
 # Shells
 brew "bash"         # because macOS ships with 3.2, from 2006
