@@ -70,14 +70,6 @@ end
 abbr tf terraform
 alias tfstate "terraform state show (terraform state list | fzf) | bat -l hcl --plain"
 
-# fzf
-if type -q fzf
-    # Options + Ayu Dark-derived theme
-    set -gx FZF_DEFAULT_OPTS "--cycle --layout=reverse-list --border" \
-        "--height=80% --preview-window=wrap --marker='@' --pointer='@'" \
-        "--color=fg:#bfbdb6,bg:#242936,hl:#ffb454 --color=fg+:#bfbdb6,bg+:#2e3e51,hl+:#ffb454 --color=info:#afaf87,prompt:#ffb454,pointer:#39bae6 --color=marker:#ffb454,spinner:#39bae6,header:#e6b673"
-end
-
 # tmux
 abbr tma "tmux a"
 
