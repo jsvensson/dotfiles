@@ -8,6 +8,10 @@ My dotfiles, managed via [chezmoi](https://www.chezmoi.io).
 - [🚀 Starship](https://starship.rs) as prompt enhancement.
 - [🍺 Homebrew](https://brew.sh) as package manager for macOS.
 
+## Where's NeoVim?
+
+It was a bit of a hassle to keep my NeoVim config managed by Chezmoi, as that gets frequently updated and it felt like a lot of friction to first update the NeoVim config, and then add the changes to Chezmoi's management. I broke it out into [jsvensson/nvim](https://github.com/jsvensson/nvim) instead.
+
 ## Prompt enhancements
 
 I make heavy use of [fzf](https://github.com/junegunn/fzf) for productivity features from the terminal. Some of the keybindings I use:
