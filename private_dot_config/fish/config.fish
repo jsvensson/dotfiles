@@ -15,6 +15,8 @@ source ~/.config/fish/alias.fish
 #### Theme setup
 ####
 
+fish_config theme choose "Rosé Pine"
+
 set -g theme_display_cmd_duration no
 set -g theme_display_date no
 set -g theme_nerd_fonts yes
