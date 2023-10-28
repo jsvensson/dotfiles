@@ -17,6 +17,7 @@ brew "fd"           # find replacement
 brew "ripgrep"
 brew "starship"     # shell powerline
 brew "trash"        # rm to trashcan
+brew "zoxide"       # directory autojumping
 
 
 # Git + tools
