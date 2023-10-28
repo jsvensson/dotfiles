@@ -4,6 +4,9 @@ eval (/opt/homebrew/bin/brew shellenv)
 # Starship
 eval (starship init fish)
 
+# zoxide
+zoxide init fish | source
+
 # Load bindings and aliases
 source ~/.config/fish/bindings.fish
 source ~/.config/fish/alias.fish
