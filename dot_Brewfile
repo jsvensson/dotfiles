@@ -62,7 +62,6 @@ cask "kitty"				# Terminal of choice
 brew "neovim"
 brew "pwgen"
 brew "terraform"
-brew "terraform-ls" # Terraform language server
 brew "tmux"
 brew "trivy"
 
