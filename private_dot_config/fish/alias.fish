@@ -71,7 +71,7 @@ abbr tf terraform
 alias tfstate "terraform state show (terraform state list | fzf) | bat -l hcl --plain"
 
 # tmux
-abbr tma "tmux a"
+abbr tmux "tmux -u"
 
 # Shorthand for built-in stuff
 abbr c clear
