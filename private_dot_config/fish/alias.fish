@@ -48,6 +48,11 @@ if type -q bat
     alias cat bat
 end
 
+# Surely nothing can go wrong with this.
+if type -q z
+    alias cd z
+end
+
 # Replace dig with doggo
 if type -q doggo
     abbr dig doggo
