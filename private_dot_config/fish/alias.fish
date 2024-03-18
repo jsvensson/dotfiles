@@ -72,8 +72,8 @@ if type -q eza
     alias llt "ll --header --accessed --modified --created"
 end
 
-abbr tf terraform
-alias tfstate "terraform state show (terraform state list | fzf) | bat -l hcl --plain"
+abbr tf tofu
+alias tfstate "tofu state show (tofu state list | fzf) | bat -l hcl --plain"
 
 # tmux
 abbr tmux "tmux -u"
