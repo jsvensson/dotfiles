@@ -41,7 +41,7 @@ set -gx FZF_DEFAULT_OPTS "
 	--color=spinner:#f6c177,info:#9ccfd8,separator:#403d52
 	--color=pointer:#c4a7e7,marker:#eb6f92,prompt:#908caa
 	--cycle --layout=reverse-list --border
-	--height=80% --preview-window=wrap --marker='@' --pointer='@'"
+	--height=80% --preview-window=wrap,70% --marker='@' --pointer='@'"
 
 ####
 #### Autocompletion definitions
