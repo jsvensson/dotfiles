@@ -75,9 +75,6 @@ end
 abbr tf tofu
 alias tfstate "tofu state show (tofu state list | fzf) | bat -l hcl --plain"
 
-# tmux
-abbr tmux "tmux -u"
-
 # Shorthand for built-in stuff
 abbr c clear
 abbr x exit
