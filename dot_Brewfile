@@ -14,6 +14,7 @@ brew "fish"         # shell of choice
 brew "bat"          # cat replacement
 brew "eza"          # ls replacement
 brew "fd"           # find replacement
+brew "gum"          # shell TUI tool
 brew "ripgrep"
 brew "starship"     # shell powerline
 brew "trash"        # rm to trashcan
