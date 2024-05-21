@@ -43,6 +43,9 @@ set -gx FZF_DEFAULT_OPTS "
 	--cycle --layout=reverse-list --border
 	--height=80% --preview-window=wrap,70% --marker='@' --pointer='@'"
 
+# gum config
+set -gx GUM_FILTER_INDICATOR 
+
 ####
 #### Autocompletion definitions
 ####
