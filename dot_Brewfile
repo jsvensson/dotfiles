@@ -23,6 +23,7 @@ brew "zoxide"       # directory autojumping
 
 # Git + tools
 brew "git"
+brew "gitui"        # git TUI of choice
 brew "diff-so-fancy"
 brew "ghq"          # git repo management
 brew "lefthook"     # Git pre-commit system
