@@ -8,6 +8,3 @@ Host *
 	# Disable client-side roaming support for security reasons.
 	# See https://www.upguard.com/blog/fixing-the-new-openssh-roaming-bug
 	UseRoaming no
-{{ if .dtfy -}}
-{{- onepasswordDocument .dtfy_ssh_config_uuid .dtfy_vault_uuid -}}
-{{- end -}}
