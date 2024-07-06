@@ -16,6 +16,7 @@ brew "eza"          # ls replacement
 brew "fd"           # find replacement
 brew "gum"          # shell TUI tool
 brew "ripgrep"
+brew "joshmedeski/sesh/sesh"
 brew "starship"     # shell powerline
 brew "trash"        # rm to trashcan
 brew "zoxide"       # directory autojumping
