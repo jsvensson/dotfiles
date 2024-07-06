@@ -35,15 +35,6 @@ brew "noahgorstein/tap/jqp" # jq playground
 brew "yq"           # YAML querying/manipulation
 
 
-# Go + tools
-brew "go"
-brew "gofumpt"      # Stricter gofmt
-brew "gopls"
-brew "staticcheck"  # static code analysis for Go
-brew "mockery"      # Go mock generator
-brew "incu6us/homebrew-tap/goimports-reviser"
-
-
 # Network tools
 brew "doggo"				# dig alternative
 
