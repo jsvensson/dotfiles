@@ -53,6 +53,10 @@ brew "kubectl"      # Kubernetes CLI tool
 brew "kubectx"      # Kubernetes context/namespace switching
 brew "k9s"					# Kubernets TUI tool
 
+# macOS apps
+brew "jordanbaird-ice" # https://github.com/jordanbaird/Ice
+
+
 # TODO: Stuff to categorize
 
 brew "btop"         # system info, like htop
