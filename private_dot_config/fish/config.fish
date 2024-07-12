@@ -7,6 +7,9 @@ eval (starship init fish)
 # zoxide
 zoxide init fish | source
 
+# initialize atuin for shell history
+atuin init fish | source
+
 # Load bindings and aliases
 source ~/.config/fish/bindings.fish
 source ~/.config/fish/alias.fish
