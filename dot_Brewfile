@@ -50,6 +50,10 @@ brew "k9s"					# Kubernets TUI tool
 brew "jordanbaird-ice" # https://github.com/jordanbaird/Ice
 
 
+# Development tools
+brew "opentofu"     # Infra as code
+
+
 # TODO: Stuff to categorize
 
 brew "btop"         # system info, like htop
@@ -59,7 +63,6 @@ brew "fzf"          # fuzzy finder
 cask "kitty"				# Terminal of choice
 brew "neovim"
 brew "pwgen"
-brew "terraform"
 brew "tmux"
 brew "trivy"
 
