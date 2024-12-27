@@ -1,1 +1,6 @@
+# UI setup
+
 theme = rose-pine
+
+font-family = Mononoki Nerd Font Mono
+font-size = 16.0
