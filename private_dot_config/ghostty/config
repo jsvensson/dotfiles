@@ -1,6 +1,10 @@
-# UI setup
-
+# Theme and window settings
 theme = rose-pine
-
-font-family = Mononoki Nerd Font Mono
+background-opacity = 0.8
+background-blur-radius = 20
+# Fonts
+font-family = "Mononoki Nerd Font Mono"
 font-size = 16.0
+
+# Mouse
+mouse-hide-while-typing = true
