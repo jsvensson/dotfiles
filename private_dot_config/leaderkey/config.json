@@ -2,16 +2,35 @@
   "type" : "group",
   "actions" : [
     {
-      "key" : "t",
-      "type" : "application",
-      "value" : "/Applications/Things3.app",
-      "label" : ""
-    },
-    {
       "label" : "",
       "type" : "application",
+      "key" : "t",
+      "value" : "/Applications/Things3.app"
+    },
+    {
+      "value" : "/Applications/1Password.app",
       "key" : "p",
-      "value" : "/Applications/1Password.app"
+      "label" : "",
+      "type" : "application"
+    },
+    {
+      "key" : "o",
+      "label" : "Open...",
+      "actions" : [
+        {
+          "value" : "/Applications/Spark Desktop.app",
+          "label" : "Spark",
+          "key" : "m",
+          "type" : "application"
+        },
+        {
+          "type" : "application",
+          "key" : "g",
+          "label" : null,
+          "value" : "/Applications/Discord.app"
+        }
+      ],
+      "type" : "group"
     }
   ]
 }
