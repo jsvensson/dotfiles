@@ -1,0 +1,17 @@
+{
+  "type" : "group",
+  "actions" : [
+    {
+      "key" : "t",
+      "type" : "application",
+      "value" : "/Applications/Things3.app",
+      "label" : ""
+    },
+    {
+      "label" : "",
+      "type" : "application",
+      "key" : "p",
+      "value" : "/Applications/1Password.app"
+    }
+  ]
+}
