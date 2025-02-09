@@ -2,6 +2,9 @@
 theme = rose-pine
 background-opacity = 0.8
 background-blur-radius = 20
+window-width = 145
+window-height = 40
+
 # Fonts
 font-family = "Mononoki Nerd Font Mono"
 font-size = 16.0
