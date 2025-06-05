@@ -1,36 +1,38 @@
 {
-  "type" : "group",
   "actions" : [
     {
-      "label" : "",
-      "type" : "application",
       "key" : "t",
+      "type" : "application",
       "value" : "/Applications/Things3.app"
     },
     {
-      "value" : "/Applications/1Password.app",
       "key" : "p",
-      "label" : "",
-      "type" : "application"
+      "type" : "application",
+      "value" : "/Applications/1Password.app"
     },
     {
-      "key" : "o",
-      "label" : "Open...",
       "actions" : [
         {
-          "value" : "/Applications/Spark Desktop.app",
-          "label" : "Spark",
           "key" : "m",
-          "type" : "application"
+          "label" : "Spark",
+          "type" : "application",
+          "value" : "/Applications/Spark Desktop.app"
         },
         {
+          "key" : "d",
           "type" : "application",
-          "key" : "g",
-          "label" : null,
           "value" : "/Applications/Discord.app"
+        },
+        {
+          "key" : "c",
+          "type" : "application",
+          "value" : "/Applications/Calendars.app"
         }
       ],
+      "key" : "o",
+      "label" : "Open...",
       "type" : "group"
     }
-  ]
+  ],
+  "type" : "group"
 }
