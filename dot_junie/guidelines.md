@@ -1,0 +1,1 @@
+- if an `AGENTS.md` file exists in the root of the project, use this for guidelines.
