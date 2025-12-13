@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ui_font_family": "Overpass",
   "buffer_font_family": "Mononoki Nerd Font Mono",
   "agent": {
     "default_model": {
@@ -23,14 +24,14 @@
       "enabled": false
     }
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": "Catppuccin Latte",
   "disable_ai": false,
   "base_keymap": "JetBrains",
   "ui_font_size": 16,
   "buffer_font_size": 15.0,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte (Blur)",
+    "light": "Gruvbox Light",
     "dark": "Biscuit de Sol Dark"
   }
 }
