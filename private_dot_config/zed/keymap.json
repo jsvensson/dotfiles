@@ -21,7 +21,8 @@
   {
     "context": "(Workspace || Editor)",
     "bindings": {
-      "cmd-§": "terminal_panel::Toggle"
+      "cmd-§": "terminal_panel::Toggle",
+      "cmd-<": "terminal_panel::Toggle"
     }
   }
 ]
