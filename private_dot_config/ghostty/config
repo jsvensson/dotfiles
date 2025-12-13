@@ -1,5 +1,5 @@
 # Theme and window settings
-theme = Rose Pine
+theme = biscuit.theme
 background-opacity = 0.8
 background-blur-radius = 20
 window-width = 145
