@@ -11,3 +11,6 @@ font-size = 16.0
 
 # Mouse
 mouse-hide-while-typing = true
+
+# SSH setting to fix terminfo on remote machine
+shell-integration-features = ssh-terminfo
