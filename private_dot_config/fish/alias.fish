@@ -9,7 +9,7 @@ alias reload "source ~/.config/fish/config.fish"
 alias vim nvim
 
 # Git
-abbr g gitui
+abbr g lazygit
 abbr ga "git add"
 abbr gb "git branch"
 abbr gc "git commit"
