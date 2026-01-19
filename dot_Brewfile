@@ -23,7 +23,7 @@ brew "zoxide"       # directory autojumping
 
 # Git + tools
 brew "git"
-brew "gitui"        # git TUI of choice
+brew "lazygit"      # git TUI of choice
 brew "diff-so-fancy"
 brew "ghq"          # git repo management
 brew "lefthook"     # Git pre-commit system
@@ -59,11 +59,9 @@ brew "btop"         # system info, like htop
 brew "ctop"         # top for Docker containers
 brew "entr"         # Monitor files, run commands on changes
 brew "fzf"          # fuzzy finder
-cask "kitty"				# Terminal of choice
 brew "neovim"
 brew "pwgen"
 brew "tmux"
-brew "trivy"
 
 ##
 ## Taps
