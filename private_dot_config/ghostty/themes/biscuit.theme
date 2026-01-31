@@ -1,17 +1,37 @@
-palette = 0=#221E1E
-palette = 1=#CA3F3F
-palette = 2=#989F56
-palette = 3=#E39C45
-palette = 4=#517894
-palette = 5=#C45497
-palette = 6=#629386
-palette = 7=#B6A8A5
-palette = 8=#423939
-palette = 9=#6A92AE
-palette = 10=#AEB474
-palette = 11=#7FA99E
-palette = 12=#D56767
-palette = 13=#D17AAE
-palette = 14=#EAB471
-palette = 15=#F4E6D2
+# Night
 background = #181515
+
+# Antique White
+foreground = #FFE9C7
+
+# Raisin Black, Van Dyke
+palette = 0=#221E1E
+palette = 8=#423939
+
+# Persian Red, 10% Lightened Persian Red
+palette = 1=#CA3F3F
+palette = 9=#6A92AE
+
+# Moss Green, 10% Lightened Moss Green
+palette = 2=#989F56
+palette = 10=#AEB474
+
+# Butterscotch, 10% Lightened Butterscotch
+palette = 3=#E39C45
+palette = 11=#EAB471
+
+# Steel Blue, 10% Lightened Steel Blue
+palette = 4=#517894
+palette = 12=#6A92AE
+
+# Mulberry, 10% Lightened Mulberry
+palette = 5=#C45497
+palette = 13=#D17AAE
+
+# Viridian, 10% Lightened Viridian
+palette = 6=#629386
+palette = 14=#7FA99E
+
+# Silver, 10% Lightened Silver
+palette = 7=#B6A8A5
+palette = 15=#F4E6D2
