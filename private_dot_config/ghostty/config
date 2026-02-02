@@ -1,9 +1,9 @@
 # Theme and window settings
 theme = biscuit.theme
 background-opacity = 0.8
-background-blur-radius = 20
-window-width = 145
-window-height = 40
+background-blur-radius = 30
+window-width = 240
+window-height = 56
 
 # Fonts
 font-family = "Mononoki Nerd Font Mono"
