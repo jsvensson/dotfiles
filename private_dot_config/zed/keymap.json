@@ -24,4 +24,13 @@
       "cmd-k": null,
     },
   },
+  {
+    "context": "((FileFinder || FileFinder > Picker > Editor) || FileFinder > Picker > menu)",
+    "bindings": {
+      "cmd-up": "pane::SplitUp",
+      "cmd-down": "pane::SplitDown",
+      "cmd-left": "pane::SplitLeft",
+      "cmd-right": "pane::SplitRight",
+    },
+  },
 ]
