@@ -7,11 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "file_types": {
-    "OpenTofu": ["tf"],
-    "OpenTofu Vars": ["tfvars"],
-  },
   // UI settings
+  "vim_mode": false,
   "ui_font_family": "Overpass",
   "buffer_font_family": "Mononoki Nerd Font Mono",
   "icon_theme": "Zed (Default)",
@@ -29,7 +26,7 @@
   "theme": {
     "mode": "dark",
     "light": "Gruvbox Light",
-    "dark": "Everforest Dark Hard (regular)",
+    "dark": "Biscuit de Sol Dark",
   },
   "agent": {
     "default_model": {
