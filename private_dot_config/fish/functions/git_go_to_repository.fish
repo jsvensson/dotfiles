@@ -1,4 +1,4 @@
-function fzf_ghq_go_to_repository -d 'Go to repository'
+function git_go_to_repository -d 'Go to repository'
     set -l query (commandline -b)
     [ -n query ]
     ghq list | gum filter --header "Select repository" --height 20 --padding "0 2" | read select
