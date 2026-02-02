@@ -24,5 +24,11 @@
       "cmd-§": "terminal_panel::Toggle",
       "cmd-<": "terminal_panel::Toggle"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-k": null
+    }
   }
 ]
