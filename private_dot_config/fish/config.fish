@@ -64,3 +64,4 @@ end
 
 set -gx -a PATH ~/go/bin
 set -gx -a PATH ~/bin
+set -gx -a PATH ~/.local/bin
