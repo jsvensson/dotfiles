@@ -1,3 +1,12 @@
+####
+#### Path
+####
+
+set -gx -a PATH ~/go/bin
+set -gx -a PATH ~/.cargo/bin
+set -gx -a PATH ~/bin
+
+
 # Homebrew path
 eval (/opt/homebrew/bin/brew shellenv)
 
@@ -57,11 +66,3 @@ set -gx GUM_FILTER_INDICATOR 
 if type -q op
     op completion fish | source
 end
-
-####
-#### Path
-####
-
-set -gx -a PATH ~/go/bin
-set -gx -a PATH ~/bin
-set -gx -a PATH ~/.local/bin
