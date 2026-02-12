@@ -1,7 +1,7 @@
 # Theme and window settings
-theme = biscuit.theme
-background-opacity = 0.8
-background-blur-radius = 30
+theme = "Ayu Mirage"
+#background-opacity = 0.84
+background-blur-radius = 50
 window-width = 240
 window-height = 56
 
