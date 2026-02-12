@@ -19,6 +19,9 @@ abbr gfa "git fetch --all --prune"
 alias gl "git log --graph"
 alias gs "git status -sb"
 
+# GitButler
+abbr b but # 🍑
+
 # Go
 abbr gmd "go mod download -x"
 abbr gmt "go mod tidy -v"
