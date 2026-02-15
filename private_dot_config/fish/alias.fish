@@ -6,7 +6,7 @@
 alias reload "source ~/.config/fish/config.fish"
 
 # Vim
-alias vim nvim
+abbr vim nvim
 
 # Git
 abbr g lazygit
@@ -65,9 +65,9 @@ end
 alias afk "open -a /System/Library/CoreServices/ScreenSaverEngine.app"
 abbr brwe brew # maximum butterfingers
 
-# exa
+# eza (modern replacement for ls)
 if type -q eza
-    alias ll "ls -l --git"
+    alias ll "eza -l --git"
     alias lla "ll -a"
     alias ll2 "ll --tree --level=2"
     alias ll3 "ll --tree --level=3"
