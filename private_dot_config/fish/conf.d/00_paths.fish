@@ -3,10 +3,13 @@
 ####
 # Add user and language-specific directories to PATH
 
-set -gx -a PATH ~/.local/bin
-set -gx -a PATH ~/bin
-set -gx -a PATH ~/go/bin
-set -gx -a PATH ~/.cargo/bin
+# Custom path directories (space-separated)
+set -l custom_paths ~/.local/bin ~/go/bin ~/.cargo/bin
+
+# Add each directory to PATH if it exists
+for dir in $custom_paths
+    test -d $dir && set -gx -a PATH $dir
+end
 
 # Homebrew environment setup
 eval (/opt/homebrew/bin/brew shellenv)
