@@ -16,6 +16,7 @@
     "bindings": {
       "cmd-§": "terminal_panel::Toggle",
       "cmd-<": "terminal_panel::Toggle",
+      "alt-enter": "editor::OpenExcerpts",
     },
   },
   {
