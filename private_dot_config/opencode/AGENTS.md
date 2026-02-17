@@ -1,4 +1,7 @@
-# Git workflow
+## Plan mode
+ - Make the plan concise. Sacrifice grammar for the sake of concision.
+
+## Git workflow
  - Always use GitButler via the `but` skill to interact with Git.
  - Use GitButler branches to isolate units of work. Keep fixes in separate branches from features, etc.
  - Use GitButler to create PRs.
