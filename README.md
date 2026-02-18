@@ -4,7 +4,7 @@ macOS dotfiles managed with [chezmoi](https://www.chezmoi.io). [Ayu Mirage](http
 
 ## What's included
 
-See [.Brewfile](.Brewfile) for the main list of installed packages. Homebrew is the main package manager, but there are some manual steps below.
+See [.Brewfile](dot_Brewfile) for the main list of installed packages. Homebrew is the main package manager, but there are some manual steps below.
 
 ## Where's NeoVim?
 
