@@ -14,3 +14,7 @@ mouse-hide-while-typing = true
 
 # SSH setting to fix terminfo on remote machine
 shell-integration-features = ssh-terminfo
+
+# Pass opt+left/right through to tmux (unbind word-movement shortcuts)
+keybind = opt+left=unbind
+keybind = opt+right=unbind
