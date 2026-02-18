@@ -1,32 +1,45 @@
-# dotfiles 🏠
+# dotfiles
 
-My dotfiles, managed via [chezmoi](https://www.chezmoi.io).
+macOS dotfiles managed with [chezmoi](https://www.chezmoi.io). [Ayu Mirage](https://ayutheme.com/) theme throughout.
 
-## General concepts
+## What's included
 
-- [🐟 Fish](https://fishshell.com) as my shell. POSIX compatibility be damned.
-- [🚀 Starship](https://starship.rs) as prompt enhancement.
-- [🍺 Homebrew](https://brew.sh) as package manager for macOS.
+See [.Brewfile](.Brewfile) for the main list of installed packages. Homebrew is the main package manager, but there are some manual steps below.
 
 ## Where's NeoVim?
 
 It was a bit of a hassle to keep my NeoVim config managed by Chezmoi, as that gets frequently updated and it felt like a lot of friction to first update the NeoVim config, and then add the changes to Chezmoi's management. I broke it out into [jsvensson/nvim](https://github.com/jsvensson/nvim) instead.
 
-## Prompt enhancements
+## Quick start
 
-I make heavy use of [fzf](https://github.com/junegunn/fzf) for productivity features from the terminal. Some of the keybindings I use:
+One-liner on a fresh Mac:
 
-- `Ctrl-R`: search shell history
-- `Ctrl-V`: search environment variables
-- `Ctrl-G G`: navigate to git repositories
-  - This uses `~/git/` as the base directory using [ghq](https://github.com/x-motemen/ghq)
-- `Ctrl-G B`: navigate git branches while in a repository
-- `Ctrl-F`: search files under `pwd` recursively
-- `Ctrl-D`: navigate to directories under `pwd` recursively
+```sh
+bash <(curl -fsSL https://raw.githubusercontent.com/jsvensson/dotfiles/main/setup.sh)
+```
 
-## WIP: Installation
+Or manually:
 
-I have yet to do a fresh install from scratch on a new computer, so this section is still highly theoretical.
+```sh
+brew install chezmoi
+chezmoi init --apply jsvensson
+```
 
-- Install Homebrew
-- Install chezmoi via Homebrew: `brew install chezmoi`
+The bootstrap script handles Xcode CLI tools, Homebrew, chezmoi, Brewfile, Fish as default shell, Fisher plugins, tpm, and NeoVim config clone.
+
+## Key bindings (fzf)
+
+| Binding | Action |
+|---|---|
+| `Ctrl-R` | Search shell history (Atuin) |
+| `Ctrl-V` | Search environment variables |
+| `Ctrl-F` | Search files recursively |
+| `Ctrl-D` | Navigate directories recursively |
+| `Ctrl-G G` | Navigate to git repos (ghq, `~/git/`) |
+| `Ctrl-G B` | Switch git branches |
+
+## Manual post-setup steps
+
+1. **1Password** -- install, enable SSH agent (git signing + SSH auth)
+2. **tmux plugins** -- open tmux, press `Ctrl-A I`
+3. **NeoVim** -- open nvim, let lazy.nvim install plugins
