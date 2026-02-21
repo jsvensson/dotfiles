@@ -1,5 +1,6 @@
 ## Plan mode
- - Make the plan concise. Sacrifice grammar for the sake of concision.
+
+- Make the plan concise. Sacrifice grammar for the sake of concision.
 
 # Git workflow
 
@@ -10,3 +11,4 @@
 - Use GitButler to create PRs.
 - Read-only operations are acceptable to use with `git` when GitButler does not support them.
 - Use `gh` to read relevant data (PRs, issues, etc) from GitHub.
+- use Conventional Commits for commit messages.
