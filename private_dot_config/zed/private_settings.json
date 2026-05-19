@@ -18,6 +18,7 @@
     "calt": true,
   },
   "project_panel": {
+    "dock": "left",
     "entry_spacing": "comfortable",
   },
   "tabs": {
@@ -34,9 +35,6 @@
       "model": "devstral-medium-latest",
     },
     "model_parameters": [],
-  },
-  "features": {
-    "edit_prediction_provider": "codestral",
   },
   "git": {
     "inline_blame": {
