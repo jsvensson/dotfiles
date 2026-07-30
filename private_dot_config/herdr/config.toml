@@ -1,0 +1,9 @@
+[ui]
+agent_panel_sort = "spaces"
+
+[theme]
+name = "vesper"
+auto_switch = false
+
+[keys]
+prefix = "ctrl+a"
