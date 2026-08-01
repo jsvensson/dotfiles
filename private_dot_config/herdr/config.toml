@@ -2,7 +2,7 @@
 agent_panel_sort = "spaces"
 
 [theme]
-name = "vesper"
+name = "terminal"
 auto_switch = false
 
 [keys]
