@@ -2,6 +2,10 @@
 
 - Use ASD-STE100 for clarity and brevity.
 
+# Go development
+
+- When checking for empty strings, use `if len(str) > 0` rather than `if str != ""`
+
 # Git workflow
 
 - Local Git repositories are found in `~/git/`, using a hostname-based directory structure.
