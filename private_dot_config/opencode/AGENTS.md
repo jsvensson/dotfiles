@@ -15,7 +15,15 @@
 - Always include a description of what a PR does in its body.
   - Write the PR to a file to solve zsh not accepting `backticks` in the PR body. Use `--body-file` flag to pass it.
 - When creating PRs with `gh pr`, use `--title "..."` to pass the PR title.
-- When creating PRs with `but pr new`, pass the title with `-m "..."` and the body with `-F <file>`.
-  `-F` alone takes the title from the first line of the body.
-
-@RTK.md
+- When creating PRs with `but pr new`, pass the title with `-m "..."`; the CLI rejects `-F`.
+  Set the body afterwards with `gh pr edit <N> --body-file <file>`.
+- Never rewrite history (rebase, amend, squash, force-push) on a branch that
+  has an upstream or an open pull request. Review comments, CI results, and
+  other tooling anchor to commits; rewriting the branch orphans that context
+  and destroys the incremental "what changed since last review" diff.
+  - Address review feedback with new commits, prefixed `review:` so the
+    feedback-to-fix mapping stays scannable in the log.
+  - Rewriting is fine on branches that are local-only with no open PR.
+    History nobody has consumed is free to change.
+  - Any other case requires an explicit request from the user.
+    When unsure whether a branch qualifies, ask first.
