@@ -27,3 +27,4 @@
     History nobody has consumed is free to change.
   - Any other case requires an explicit request from the user.
     When unsure whether a branch qualifies, ask first.
+- For commits and issues, do not use hard line breaks unless needed. GFM renders these as hard line breaks.
