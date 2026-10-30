@@ -17,14 +17,18 @@
 - When creating PRs with `gh pr`, use `--title "..."` to pass the PR title.
 - When creating PRs with `but pr new`, pass the title with `-m "..."`; the CLI rejects `-F`.
   Set the body afterwards with `gh pr edit <N> --body-file <file>`.
-- Never rewrite history (rebase, amend, squash, force-push) on a branch that
-  has an upstream or an open pull request. Review comments, CI results, and
-  other tooling anchor to commits; rewriting the branch orphans that context
-  and destroys the incremental "what changed since last review" diff.
+- History only exists on the default branch: it is immutable, never rewrite
+  it. Feature branches are working state, not history — but once a branch is
+  observed (pushed upstream, has an open pull request, or another branch
+  builds on it), do not rewrite it (rebase, amend, squash, force-push).
+  Review comments, CI results, and stacked branches anchor to its commits;
+  rewriting orphans that context and destroys the incremental "what changed
+  since last review" diff. Squash-merging a PR is not rewriting: the merge
+  is where the branch collapses into a single commit on the default branch.
   - Address review feedback with new commits, prefixed `review:` so the
     feedback-to-fix mapping stays scannable in the log.
   - Rewriting is fine on branches that are local-only with no open PR.
-    History nobody has consumed is free to change.
+    History nobody has observed is free to change.
   - Any other case requires an explicit request from the user.
     When unsure whether a branch qualifies, ask first.
 - For commits and issues, do not use hard line breaks unless needed. GFM renders these as hard line breaks.
