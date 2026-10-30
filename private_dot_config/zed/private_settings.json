@@ -8,12 +8,26 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // UI settings
+  "show_edit_predictions": false,
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "edit_predictions": {
+    "provider": "codestral",
+  },
   "vim_mode": false,
   "ui_font_family": "Overpass",
   "buffer_font_family": "Mononoki Nerd Font Mono",
   "icon_theme": "Zed (Default)",
   "ui_font_size": 16,
-  "buffer_font_size": 17.0,
+  "buffer_font_size": 15.0,
   "buffer_font_features": {
     "calt": true,
   },
@@ -30,6 +44,7 @@
     "dark": "Ayu Mirage",
   },
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "mistral",
       "model": "devstral-medium-latest",
